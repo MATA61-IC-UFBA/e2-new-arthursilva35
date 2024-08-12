@@ -3,15 +3,6 @@
 %option noyywrap nodefault yylineno
 %{
 #include "token.h"
-#include <stdio.h>
-// Definições dos tokens
-#define NUMBER  256
-#define PLUS    257
-#define MINUS   258
-#define TIMES   259
-#define DIV     260
-#define EOL     261
-#define ERROR   262
 %}
 
 %%
